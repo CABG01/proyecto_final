@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActividadesPrincipales.Contacto_Correo">
+
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbar">
+    </include>
+
+    <LinearLayout
+        android:id="@+id/llNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margen_superior_textos_mContactos"
+        app:layout_constraintTop_toBottomOf="@+id/miActionBar"
+    >
+        <TextView
+            android:id="@+id/tvTextoNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_nombre_mcontactos"
+            android:layout_marginLeft="@dimen/margen_izquierdo_mContactos"/>
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nombre_mContacto"
+            android:layout_marginLeft="@dimen/margen_izquierdo_ediTex_mContactos"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margen_superior_textos_mContactos"
+        app:layout_constraintTop_toBottomOf="@+id/llNombre"
+        >
+        <TextView
+            android:id="@+id/tvCorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_correo_mcontactos"
+            android:layout_marginLeft="@dimen/margen_izquierdo_mContactos"/>
+
+        <EditText
+            android:id="@+id/etCorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_correo_mContacto"
+            android:layout_marginLeft="@dimen/margen_izquierdo_ediTex_mContactos"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llmensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margen_superior_textos_mContactos"
+        app:layout_constraintTop_toBottomOf="@+id/llCorreo"
+        >
+        <TextView
+            android:id="@+id/tvmensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_mensaje_mcontactos"
+            android:layout_marginLeft="@dimen/margen_izquierdo_mContactos"/>
+
+        <EditText
+            android:id="@+id/etMensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_mensaje_mContacto"
+            android:layout_marginLeft="@dimen/margen_izquierdo_ediTex_mContactos"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btEnviarCom_mContacto"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Altura_boton_mContacto"
+        android:text="@string/bt_text_mContacto"
+        android:textColor="@color/cardview_light_background"
+        android:background="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:onClick="Enviarcorreo"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

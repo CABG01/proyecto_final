@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="elevacion_actionbar">4dp</dimen>
+    <dimen name="elevacion_btnEstrella">5dp</dimen>
+    <dimen name="titulo_app">20dp</dimen>
+    <dimen name="margen_cvInferior">30dp</dimen>
+    <dimen name="margen_entecvInferior">15dp</dimen>
+    <dimen name="margen_tvNombre_mascota">5dp</dimen>
+    <dimen name="margen_tvNumero_Likes">90dp</dimen>
+    <dimen name="margen_ivHueso_Amarillo">10dp</dimen>
+    <dimen name="margen_derechoBtnEstrella">40dp</dimen>
+    <dimen name="margen_izquierdoTituloAPP">90dp</dimen>
+    <dimen name="margen_superior_textos_mContactos">50dp</dimen>
+    <dimen name="margen_izquierdo_mContactos">25dp</dimen>
+    <dimen name="margen_izquierdo_ediTex_mContactos">10dp</dimen>
+    <dimen name="coner_cv_radius">5dp</dimen>
+    <dimen name="cardview_tamaño">300dp</dimen>
+    <dimen name="foto_perfil">150dp</dimen>
+    <dimen name="hueso_blanco">50dp</dimen>
+    <dimen name="Nombre_mascota">20dp</dimen>
+    <dimen name="logos_actionbar">40dp</dimen>
+    <dimen name="Altura_boton_mContacto">50dp</dimen>
+    <dimen name="Texto_mAcercade">15dp</dimen>
+    <dimen name="margen_fotoPrincipal_fragmen">30dp</dimen>
+    <dimen name="margen_tvfotoPrincipal_fragment">50dp</dimen>
+    <dimen name="margen_cvfotoPrincipal_fragment">100dp</dimen>
+    <dimen name="margen_ibEstrella_activitymain">250dp</dimen>
+
+
+</resources>

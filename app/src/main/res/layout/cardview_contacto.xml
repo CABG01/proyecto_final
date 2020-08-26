@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_View="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvContacto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/margen_entecvInferior"
+    card_View:cardCornerRadius="@dimen/coner_cv_radius">
+
+    <LinearLayout
+        android:layout_width="@dimen/cardview_tamaño"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margen_cvInferior"
+        >
+
+
+        <ImageView
+            android:id="@+id/ivFotoPerfil"
+            android:layout_width="@dimen/foto_perfil"
+            android:layout_height="@dimen/foto_perfil"
+            android:src="@drawable/perrito1"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/ivHuesoBlanco"
+                android:layout_width="@dimen/hueso_blanco"
+                android:layout_height="@dimen/hueso_blanco"
+                android:background="@drawable/hueso_de_perro"/>
+
+            <!--
+            <ImageView
+                android:id="@+id/ivHuesoBlanco"
+                android:layout_width="@dimen/hueso_blanco"
+                android:layout_height="@dimen/hueso_blanco"
+                android:src="@drawable/hueso_de_perro"/>
+
+                -->
+
+            <TextView
+                android:id="@+id/tvNombrePerrito"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cachorro"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/Nombre_mascota"
+                android:textColor="@color/colorPrimary_text"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/margen_tvNombre_mascota"
+                android:layout_marginStart="@dimen/margen_tvNombre_mascota" />
+
+            <TextView
+                android:id="@+id/tvNumeroLikes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="5"
+                android:textColor="@color/colorPrimary_text"
+                android:textSize="@dimen/Nombre_mascota"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/margen_tvNumero_Likes" />
+
+            <ImageView
+                android:id="@+id/ivHuesoAmarillo"
+                android:layout_width="@dimen/hueso_blanco"
+                android:layout_height="@dimen/hueso_blanco"
+                android:src="@drawable/hueso_de_perro_amarillo"
+                android:layout_marginLeft="@dimen/margen_ivHueso_Amarillo"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

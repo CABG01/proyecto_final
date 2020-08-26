@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PetGram</string>
+    <string name="menuOpciones">Contacto</string>
+    <string name="menuInformacion">Acerca de</string>
+    <string name="hint_nombre_mContacto">Nombre Completo</string>
+    <string name="tv_nombre_mcontactos">Nombre: </string>
+    <string name="hint_correo_mContacto">Tu email</string>
+    <string name="tv_correo_mcontactos">Correo: </string>
+    <string name="hint_mensaje_mContacto">Escribe tu mensaje</string>
+    <string name="tv_mensaje_mcontactos">mensaje: </string>
+    <string name="bt_text_mContacto">Enviar Comentario</string>
+    <string name="tv_Acerca_de">Al desarrollador le gusta comer Tacos\n\n
+    Tambien es fan de los Videojuegos\n\n
+    Uno de sus libros favoritos es Cien Años de Soledad\n\n
+    Y le gusta aprender nuevas cosas</string>
+    <string name="mTopPerritos">Top Perritos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

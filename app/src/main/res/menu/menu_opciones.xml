@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mContacto"
+        android:title="@string/menuOpciones"
+        android:orderInCategory="103"
+        />
+
+    <item
+        android:id="@+id/mAcercaDe"
+        android:title="@string/menuInformacion"
+        android:orderInCategory="104"
+        />
+
+<!--
+    <item
+        android:id="@+id/mTopPerritos"
+        android:title="@string/mTopPerritos"
+        android:orderInCategory="102"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_star_black_18dp"/>
+        -->
+
+
+</menu>
